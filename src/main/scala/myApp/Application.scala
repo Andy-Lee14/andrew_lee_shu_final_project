@@ -1,6 +1,5 @@
 package myApp
 
-
 import java.io.{FileOutputStream, PrintStream}
 import scala.Numeric.Implicits._
 import scala.io.Source
@@ -22,8 +21,6 @@ object Application extends App {
 
       processBatch(batch)
   }
-
-
 
   def processBatch (batch: Seq[(String, Double)]): Unit = {
     // Calculate Mean, Variance and Standard Deviation
